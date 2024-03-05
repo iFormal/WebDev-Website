@@ -1,0 +1,24 @@
+body{
+  background-color: rgba(54,57,63,255);
+  font-family: sans-serif;
+}
+
+.account .center {
+  text-align: center;
+  color: white;
+  padding-top: 150px;
+}
+
+.logout {
+  font-style: italic;
+  background-color: rgba(54,57,63,255);
+  color: white;
+}
+
+.account .right {
+  text-align: right;
+  color: white;
+  font-size: 130%;
+  margin-right: 450px;
+  padding-top: 75px;
+}

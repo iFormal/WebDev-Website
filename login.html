@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Account - iKB</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="header.css">
+  </head>
+  <body>
+    <div class="header">
+      <ul>
+        <li class="header-1"><a href="index.html"> <img src="images/logo.png"></a></li>
+        <li class="header-2"><a href="products.html">Products</a></li>
+        <li class="header-2"><a href="upcoming.html">Upcoming</a></li>
+        <li class="header-2"><a href="aboutus.html">About Us</a></li>
+        <li class="header-2"><a href="help.html">Help</a></li>
+        <li class="loginprofile"><a href="login.html"><img src="images/login2.png"></a> </li>
+      </ul>
+    </div>
+
+    <div class="hero">
+      <div class="form-box">
+        <div class="button-box">
+          <div id="button"></div>
+          <button type="button" class="toggle-button" onclick="register()">Register</button>
+          <button type="button" class="toggle-button" onclick="login()">Log In</button>
+        </div>
+        <form id="login" class="input" onsubmit="check()">
+          <input type="text" id="userID" class="input-field" placeholder="User ID" required>
+          <input type="password" id="userPWD" class="input-field" placeholder="Enter Password" required>
+          <input type="checkbox" class="checkbox"><span>Remember Password</span>
+          <button type="submit" class="submit-button">Log In</button><br>
+        </form>
+        <form id="register" class="input" onsubmit="store()">
+          <input type="text" id="user_id" class="input-field" placeholder="User ID" required>
+          <input type="email" id="user_email" class="input-field" placeholder="Email" required>
+          <input type="password" id="pwd" class="input-field" placeholder="Enter Password" required>
+          <input type="checkbox" class="checkbox" required><span>I agree to the terms & conditions</span>
+          <button type="submit" class="submit-button">Register</button><br>
+        </form>
+      </div>
+    </div>
+
+    <script>
+      var x = document.getElementById("login");
+      var y = document.getElementById("register");
+      var z = document.getElementById("button");
+
+      function login(){
+        x.style.left = "50px";
+        y.style.left = "-400px"
+        z.style.left = "110px";
+      }
+
+      function register(){
+        x.style.left = "450px";
+        y.style.left = "50px"
+        z.style.left = "0";
+      }
+    </script>
+
+    <script src="database.js"></script>
+  </body>
+</html>

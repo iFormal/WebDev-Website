@@ -1,0 +1,17 @@
+body {
+  font-family: sans-serif;
+  background-color: rgba(54,57,63,255);
+}
+
+.aboutus {
+  color: darkgrey;
+  padding-top: 40px;
+  padding-bottom: 200px;
+  text-align: center;
+  font-size: 150%;
+}
+
+hr {
+  height: 5px;
+  visibility: hidden;
+}

@@ -1,0 +1,52 @@
+body {
+  font-family: sans-serif;
+  background-color: rgba(54,57,63,255);
+}
+
+.header {
+  background-color: black;
+}
+
+
+
+.item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-bottom: 10%;
+}
+
+.shopnow {
+  text-align: center;
+  padding: 300px;
+}
+
+.shopnow a {
+  color: black;
+  background-color: white;
+  padding: 10px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.shopnow h1 {
+  color: rgba(54,57,63,255);
+  text-shadow: 2px 2px white;
+}
+
+.description {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  font-size: 20px;
+  color: white
+}
+
+.description p {
+  font-style: italic;
+  font-weight: lighter;
+}

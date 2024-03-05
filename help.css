@@ -1,0 +1,33 @@
+body {
+  font-family: sans-serif;
+  background-color: rgba(54,57,63,255);
+}
+
+.title{
+  text-align: center;
+  margin: 0 auto 80px;
+  position: relative;
+  line-height: 60px;
+  color: white;
+  margin-top: 30px;
+}
+
+.title::after{
+  content: '';
+  background: grey;
+  width: 80px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.social a{
+  text-align: center;
+  text-decoration: none;
+  color: darkgrey;
+  padding-left: 46%;
+  font-size: 150%;
+}
