@@ -9,19 +9,19 @@ Please don't mind the bad CSS :)
 
 ## Images of the Website
 
-Landing Page (Carousel of 3 different background)
+### Landing Page (Carousel of 3 different background)
 ![alt text](readme%20assets/homepage1.png)
 ![alt text](readme%20assets/homepage2.png)
 ![alt text](readme%20assets/homepage3.png)
 
-Product Page
+### Product Page
 ![alt text](readme%20assets/products.png)
 
-Upcoming Product Page
+### Upcoming Product Page
 ![alt text](readme%20assets/upcoming.png)
 
-Register / Login Page
+### Register / Login Page
 ![alt text](readme%20assets/register.png)
 
-Checkout Page
+### Checkout Page
 ![alt text](readme%20assets/checkout.png)
